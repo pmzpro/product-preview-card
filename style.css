@@ -100,9 +100,6 @@ body {
 }
 
 .product {
-  --content-padding: 1.5rem;
-  --content-spacing: 1rem;
-
     background-color: var(--white);
     display: grid;
     border-radius: 0.5rem;
