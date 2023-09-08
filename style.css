@@ -64,6 +64,7 @@ body {
     
 }
 
+/* price flexbox group */
 .price {
     display: flex;
     gap: 1rem;
@@ -72,6 +73,7 @@ body {
     
 }
 
+/* button styling */
 .button {
     cursor: pointer;
     text-decoration: none;
@@ -88,6 +90,7 @@ body {
     border-radius: 0.5rem;
 }
 
+/* shopping cart icon in the button */
 .button[data-icon="shopping-cart"]::before {
     content: "";
     background-image: url('images/icon-cart.svg');
@@ -95,6 +98,7 @@ body {
     height: 16px;
 }
 
+/* effect for pressing the button */
 .button:is(:hover, :focus) {
     background-color: var(--verydarkcyan);
 }
@@ -107,28 +111,29 @@ body {
     max-width: 600px;
 }
 
+/* for desktop design */
 @media (min-width: 600px) {
     .product {
-        
         grid-template-columns: 1fr 1fr;
-        
     }
 }
 
-
+/* white content fix */
 .product__content {
     display: grid;
-    padding: 1.5rem;
+    padding: 2rem;
     gap: 1rem;
     
 }
 
+/* second tittle style */
 .product__category {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 0.8125rem;
 }
 
+/* title style */
 .product__title {
     font-size: 2rem;
     font-family: var(--ff-second);
@@ -136,6 +141,7 @@ body {
     
 }
 
+/* price style */
 .product__price {
     font-size: 2rem;
     font-family: var(--ff-second);
